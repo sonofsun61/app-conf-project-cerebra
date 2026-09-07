@@ -1,12 +1,12 @@
 # Cerebra
 
-Краткое описание проекта (2-3 предложения).
+Проект управления конфигурацией бизнес-приложения
 
 ## Команда
 
-- Глеб Тарнов Backend Developer
-- Александр Черевко Backend Developer
-- Андрей Волов Teamlead
+- Глеб Тарнов - Tech Lead/Backend Developer
+- Александр Черевко - Backend Developer
+- Андрей Волов - Teamlead
 
 ## Стек технологий
 
@@ -14,16 +14,26 @@
 - FastAPI
 - PostgreSQL
 - Docker
+- Poetry
+- Uvicorn
+- Git
 - GitHub Actions
 
 ## Статус
 
 Проект в разработке.
 
+Текущая версия: 0.1.0
+
 ## Установка и запуск
 
-(Будет добавлено позже)
+```py
+git clone
+https://github.com/sonofsun61/app-conf-project-cerebra.git
 
-## Лицензия
+cd app-conf-project-cerebra
 
-MIT
+poetry install
+
+poetry run uvicorn main:app --reload
+```
