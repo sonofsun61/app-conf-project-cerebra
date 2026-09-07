@@ -1,8 +1,8 @@
 from fastapi import FastAPI
 
 app = FastAPI(
-    title="",
-    description="Project description",
+    title="Cerebra",
+    description="Business application conf project",
     version="0.1.0"
 )
 
