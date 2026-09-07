@@ -1,0 +1,22 @@
+[Cerebra]
+name = "app-conf-project-cerebra"
+version = "0.1.0"
+description = "Student project"
+authors = [
+    {name = "Gleb",email = "glebtarn@gmail.com"},
+    {name = "Andrew",email = "a_n_d_r_e_w_v_o@mail.ru"}, 
+    {name = "Alexander",email = "sasha.cherevko.04@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi (>=0.141.1,<0.142.0)",
+    "uvicorn[standard] (>=0.52.4,<0.53.0)"
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
