@@ -15,7 +15,7 @@ class AISettings(BaseSettings):
 
     llm_provider: Literal["ollama", "qwen_api"] = "ollama"
 
-    ollama_model: str = "qwen2.5-coder:7b"
+    ollama_model: str = "qwen3:4b-instruct"
     ollama_base_url: str = "http://localhost:11434"
 
     qwen_model: str = "qwen-plus"
